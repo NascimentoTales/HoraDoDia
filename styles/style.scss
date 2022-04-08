@@ -1,0 +1,66 @@
+$colorText : aliceblue;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    
+    #container{
+        width: 100vw;
+        height: 100vh;
+        // background-color: rgb(185, 184, 77);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+
+        h1{
+            color: $colorText;
+            font-size: 2.5rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        #info{
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            max-width: 500px;
+            margin: auto;
+            width: 90%;
+            padding: 30px;
+            h2{
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+            #imagem{
+                // background-color: rebeccapurple;
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                position: relative;
+                margin: auto;
+                border: 1px solid black;
+                // background-image: url("../images/dia.jpeg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+           h3{
+               font-size: 1rem;
+               margin-top: 20px;
+           }
+        }
+        footer{
+            margin-top: 20px;
+            color: $colorText;
+            p{
+                font-size: 0.8rem;
+            }
+        }
+            
+    }
+        
+}
